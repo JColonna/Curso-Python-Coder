@@ -12,3 +12,8 @@ def jugadores(request):
     
 
     return render(request, 'Appcoder/jugadores.html') #Relaciono con el template
+
+def padre(request):
+    
+
+    return render(request, 'Appcoder/padre.html') #Relaciono con el template
